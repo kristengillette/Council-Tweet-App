@@ -12,6 +12,7 @@ $('#council-select input').on('change', function() {
         .addClass('twitter-share-button')
         .attr('href', 'http://twitter.com/share')
         .attr('data-size', "large")
+        .attr('data-url', " ")
         .attr('data-text', tweetContent);
     $('#twitter-button').append(tweetBtn);
     twttr.widgets.load();
@@ -27,6 +28,7 @@ $('#tweet-select input').on('change', function() {
         .addClass('twitter-share-button')
         .attr('href', 'http://twitter.com/share')
         .attr('data-text', tweetContent)
+        .attr('data-url', " ")
         .attr('data-size', "large");
     $('#twitter-button').append(tweetBtn);
     twttr.widgets.load();	
