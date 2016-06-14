@@ -1,0 +1,28 @@
+label {
+	padding-left: 10px;
+	display: inline;
+}
+
+.council-member {
+	font-weight: bold;
+}
+
+.footer {
+	background-color: #eceeef;
+}
+
+.footer p {
+	padding: 10px;
+}
+
+.group {
+	margin-bottom: 10px;
+}
+
+input {
+	padding-bottom: 10px;
+}
+
+#twitter-button, #tweet-select, #council-select {
+	margin-bottom: 10px;
+}
